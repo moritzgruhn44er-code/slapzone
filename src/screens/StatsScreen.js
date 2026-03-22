@@ -12,7 +12,7 @@ import {
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import colors from '../theme/colors';
 
-const STATS_KEY = '@duoclash_stats';
+const STATS_KEY = '@slapzone_stats';
 
 export const saveGameResult = async (game, winner, score1, score2) => {
   try {
